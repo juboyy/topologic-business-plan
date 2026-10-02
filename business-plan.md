@@ -1,8 +1,10 @@
 # Topologic Operação — plano de negócio
 
-**Revisão: 02/10/2026. Implantação: R$200 mil. Uma DGX no início. Horizonte: 24 meses.**
+**Revisão: 02/10/2026. Capital total inicial: R$100 mil, R$150 mil ou R$200 mil. Oferta principal: implantação R$200 mil + R$12 mil/mês. Uma DGX no início. Horizonte: 24 meses.**
 
-[Apresentação resumida](index.html) · [Planilha de custos, capacidade e cenários](modelo-financeiro.xlsx) · [Cenários mensais](cenarios-24-meses.csv)
+[Apresentação espacial](index.html) · [Planilha de custos, capacidade e cenários](modelo-financeiro.xlsx) · [Cenários mensais](cenarios-24-meses.csv) · [Perspectivas de investimento](perspectivas-investimento.csv)
+
+> **Escopo separado do pitch para Dani:** este documento mantém a hipótese de expansão Topologic enterprise. O [pitch do portfólio inicial](pitch.html) e o [modelo financeiro do portfólio](modelo-portfolio.xlsx) consideram apenas Loja LATAM e Mapa de Arquitetura de TI, com premissas próprias. Não somar os dois modelos nem tratar o diagnóstico deste plano como a oferta de Mapa de TI do pitch.
 
 ## 1. O produto que vamos vender
 
@@ -318,6 +320,104 @@ O desembolso M0 é R$100 mil, mas por outra composição: R$76 mil de hardware +
 
 Os serviços continuam no segundo ano, acrescentando R$18 mil já incluídos nos fixos. Equipamentos +24 meses de serviços + a mesma reserva somam R$118 mil, sem segunda DGX. Depreciação gerencial: R$76 mil/36 = R$2.111,11 por mês, sem descontar de novo do caixa.
 
+### 10.1. Três perspectivas de capital total inicial
+
+**R$100 mil, R$150 mil e R$200 mil são o dinheiro total disponível para começar a empresa, não três preços de produto nem três negócios viáveis.** A premissa é uma DGX desde o início em todas as perspectivas. Não há autorização de compra. Não reduzimos equipe, não supomos trabalho gratuito dos sócios e não antecipamos vendas para fazer o orçamento caber.
+
+Há três valores diferentes que não devem ser somados nem confundidos:
+
+- **Infraestrutura do primeiro ano: R$100 mil**, composição da tabela anterior: equipamentos R$76 mil, serviços R$18 mil e reserva R$6 mil. Os serviços já estão nos fixos e a reserva está na reserva geral do modelo de 24 meses.
+- **Desembolso inicial M0: R$100 mil**, equipamentos R$76 mil + preparação R$24 mil. É este desembolso que sai do capital inicial.
+- **Preço de implantação ao cliente: R$200 mil**, mais R$12 mil/mês depois do aceite. É receita comercial proposta, não aporte, caixa disponível ou margem líquida.
+
+| Composição do M0 | Valor | Natureza e fonte |
+|---|---:|---|
+| DGX Spark | R$65.000 | Provisão de planejamento; cotação brasileira completa pendente |
+| Proteção elétrica / rede / backup local / periféricos | R$4.000 / R$2.000 / R$3.000 / R$2.000 | Equipamentos de apoio; provisões |
+| **Total de equipamentos** | **R$76.000** | Premissas da planilha e planning.json |
+| Jurídico e constituição | R$12.000 | Preparação, hipótese de custo |
+| Revisão inicial de segurança | R$12.000 | Preparação, hipótese de custo |
+| **Preparação / M0 total** | **R$24.000 / R$100.000** | Sem equipe mensal, entrega ou reserva adicional |
+
+| Capital total inicial | R$100 mil | R$150 mil | R$200 mil |
+|---|---:|---:|---:|
+| Equipamentos | R$76.000 | R$76.000 | R$76.000 |
+| Pré-operacional | R$24.000 | R$24.000 | R$24.000 |
+| M0 total | R$100.000 | R$100.000 | R$100.000 |
+| Caixa restante após M0 | R$0 | R$50.000 | R$100.000 |
+| Fixo mensal inicial | R$37.000 | R$37.000 | R$37.000 |
+| Meses aritméticos sem receita e sem reserva | 0,00 | 1,35 | 2,70 |
+| Meses completos financiados | 0 | 1 | 2 |
+| Saldo depois dos meses completos | R$0 | R$13.000 | R$26.000 |
+| Falta até M0 + 3 meses: R$211.000 | R$111.000 | R$61.000 | R$11.000 |
+| Falta até M0 + 6 meses: R$322.000 | R$222.000 | R$172.000 | R$122.000 |
+| Falta para capital-base de 24 meses: R$830.000 | R$730.000 | R$680.000 | R$630.000 |
+| Lançamento integral financiado? | Não | Não | Não |
+
+Fonte: hipóteses internas em [planning.json](planning.json) e Premissas da planilha. Meses = (capital − M0) / R$37 mil; o fracionamento é aritmético, não promessa de prazo, disponibilidade de pessoas ou parcelamento de despesas. O custo mensal detalhado permanece na seção 8: produto R$8 mil, engenharia R$18 mil, especialistas R$6 mil, hospedagem R$1 mil, ferramentas R$1 mil, prospecção R$1,5 mil, administração R$1 mil e energia R$0,5 mil.
+
+**Nenhuma das três perspectivas financia o lançamento no plano atual.** R$100 mil compra a estrutura sem financiar um mês de operação; R$150 mil financia um mês completo e não o segundo; R$200 mil financia dois meses e não o terceiro. Comprar antes de resolver o caixa de desenvolvimento pode deixar equipamentos sem equipe financiada.
+
+R$211 mil = M0 + três meses de fixos. R$322 mil = M0 + seis meses de fixos, **sem custos de entrega, sem reserva e sem receita**. Não são orçamento de produto pronto. A primeira venda do cenário-base no mês 7 ainda é hipótese não comprovada e exige produto homologado, contrato e entrada recebida. O capital-base de R$830 mil é outra métrica: cobre o maior déficit e a reserva no fluxo de 24 meses, com vendas hipotéticas, custos diretos e fixos do segundo ano. Não é R$37 mil multiplicado por 24. Os cenários conservador/base/expansão de R$940 mil/R$830 mil/R$640 mil permanecem inalterados; nenhum recupera o investimento ou chega ao equilíbrio recorrente em 24 meses.
+
+### 10.2. Desenvolvimento por aceite e caixa disponível
+
+Os períodos abaixo são uma sequência de trabalho proposta, não garantia de término. Cada avanço depende de aceite demonstrado, pessoas disponíveis, acesso autorizado e financiamento. Ter caixa para o mês não significa ter concluído o marco.
+
+| Período | Trabalho e critério de aceite | Alcance dos capitais iniciais |
+|---|---|---|
+| Antes do desembolso | Confirmar comprador-alvo, cotação brasileira completa, origem do capital, contrato societário, escopo e condições de parada | Nenhuma compra automática; definir financiamento do desenvolvimento antes de imobilizar M0 |
+| Mês 1 | Núcleo persistente: modelo versionado, identidade, fontes autorizadas e restauração demonstrada | M0 + M1 = R$137 mil; R$100 mil não cobre, R$150 mil e R$200 mil cobrem apenas este patamar financeiro |
+| Mês 2 | Ingestão de fontes de ensaio, consultas com evidência e testes de permissão; conectores produtivos dependem de acesso e homologação | M0 + M2 = R$174 mil; só R$200 mil cobre este patamar; não equivale a produto comercial |
+| Mês 3 | Benchmark na DGX, fila e recusa, exportação, recuperação de falhas e fluxo de reunião | M0 + M3 = R$211 mil; faltam R$111 mil/R$61 mil/R$11 mil; nenhum capital cobre integralmente |
+| Meses 4–6 | Homologar conectores suportados, segurança, limites contratuais e usuários de validação | M0 + M6 = R$322 mil sem reserva/entrega; nenhum capital cobre. Sem recursos ou acesso, parar avanço e não declarar entrega |
+| A partir do mês 7 no cenário-base | Primeiro ambiente pago somente com contrato e entrada recebida; três meses e 720 h diretas, separados de P&D | Venda não comprovada; custo direto R$129.600 por implantação, além dos fixos. Não pressupor autofinanciamento pelos R$200 mil iniciais |
+
+**Ordem de construção:** núcleo comum e Topologic Operação primeiro. O diagnóstico pode validar comprador e recorte, sem prometer integração produtiva nem substituir o financiamento. Conhecimento privado só depois de homologar consulta, isolamento e carga; Topologia Viva só depois da oferta principal repetível; parceiros só depois de método e responsabilidades replicáveis. São cinco caminhos comerciais, não cinco produtos construídos simultaneamente.
+
+### 10.3. A tecnologia compartilhada por dentro
+
+Arquitetura proposta, ainda sujeita a implementação e homologação. A demonstração visual não comprova esta pilha produtiva.
+
+| Camada | Responsabilidade e ligação com as demais | Aceite e limite |
+|---|---|---|
+| Identidade e permissões | Identificar usuário/organização e limitar acesso em todas as camadas | Testar isolamento entre clientes, papéis e revogação; filtrar antes de recuperar fontes e também nos resultados derivados |
+| Ingestão de fontes | Ler fontes autorizadas, registrar origem, versão, responsável e retenção | Conectores homologados, exclusão e atualização verificáveis; não copiar dados indiscriminadamente |
+| Semântica e grafo | Relacionar processos, conceitos, regras e dependências com estado de evidência | Responsável humano valida significado; distinguir observado, declarado, inferido e proposto |
+| Recuperação de contexto | Buscar trechos e relações permitidos para a pergunta | Citar fontes, expor lacunas e recusar quando faltar evidência; busca não garante resposta correta |
+| Inferência local | Produzir resposta usando contexto recuperado na DGX compartilhada | Benchmark por oferta, limite de contexto e fila; revisão humana, sem autonomia decisória irrestrita |
+| Eventos e fila | Receber eventos autorizados, ordenar trabalho e, no futuro, propor ações | Homologar idempotência, recusa, parada, recuperação e aprovação humana antes de qualquer ação externa |
+| Interface e auditoria | Mapa 2D/3D, reuniões, decisões, exportação e trilha de quem alterou o quê | Navegação acessível, histórico, restauração e exportação demonstrados; registros/aplicação fora da DGX |
+
+O reaproveitamento está no código, método e componentes, não nos dados de clientes. Inferência local não elimina LGPD, controle de acesso, retenção, segurança dos backups ou risco de vazamento por logs, conectores e clientes MCP. Saída para serviços externos exige autorização e avaliação contratual. Dados sensíveis não devem entrar em prompts, telemetria ou ambientes de demonstração sem base e proteção adequadas.
+
+Limites compartilhados de planejamento: 100 usuários no conjunto, 20 no mapa simultaneamente, uma pergunta de IA ativa e duas na fila. Meta de 90 consultas/h, com perfil de pico de 60/h, **não medida na DGX Topologic**. Diagnóstico, consulta privada e ações futuras disputam a mesma GPU, armazenamento, fila e pessoas; não multiplicar capacidade por oferta. Processamento pesado usa janelas agendadas. Uma DGX não oferece redundância. Uma implantação por vez; P&D não é contado novamente como equipe de entrega.
+
+### 10.4. Receitas conectadas, sem multiplicar recursos
+
+Todos os preços abaixo são hipóteses comerciais, não vendas, propostas aceitas ou cotações. **Somente Topologic Operação está no fluxo de 24 meses.** As demais ofertas não reduzem os déficits da seção 8. Reutilização pode reduzir esforço no futuro, mas não há desconto de custo não demonstrado neste orçamento.
+
+| Oferta | Comprador e escopo | Recursos compartilhados | Pré-requisitos comerciais e técnicos |
+|---|---|---|---|
+| Diagnóstico operacional | Patrocinador de mudança industrial/logística; um recorte, fontes autorizadas, mapa de dependências e perguntas de decisão, sem integração produtiva | Método, editor e processamento documental agendado | Disposição de pagar, acesso e escopo validados; decidir crédito no setup antes de contratar |
+| Topologic Operação | Diretor de operações com transformação financiada; uma unidade, até três processos relacionados, dois conectores homologados, 150 entidades e dez usuários | Grafo, fontes, permissões, visões e inferência | Produto/conectores homologados, contrato e entrada recebida; oferta principal, não venda comprovada |
+| Conhecimento privado | Área com documentação técnica e consulta restrita; respostas documentais com fontes/permissões, sem mapear toda a operação | Ingestão, busca, identidade, armazenamento e IA local | Testes de isolamento, qualidade, retenção e carga; corpus e usuários limitados antes da proposta; não é produto pronto |
+| Topologia Viva | Cliente Topologic homologado; um fluxo de observação e ação assistida, com aprovação humana e destinos autorizados | Eventos, contexto do grafo, fila, auditoria e inferência | Oferta principal repetível; homologar integração, limites, parada e recuperação; sem autonomia irrestrita |
+| Licenciamento com parceiros | Integradores de indústria/logística; distribuição e implantação com método/componentes, nunca revenda de dados de clientes | Ontologias próprias, editor, conectores homologados e método | Definir preço, direitos, suporte, responsabilidades e repartição; canal posterior, sem receita precificada |
+
+| Oferta | Setup proposto | Mensalidade proposta | Horas diretas / curadoria mensal | Custo direto setup / mês | Contribuição setup / mês, antes de fixos |
+|---|---:|---:|---:|---:|---:|
+| Diagnóstico operacional | R$30.000 | R$0 | 80 h / 0 h | R$14.400 / R$0 | R$10.500 / R$0 |
+| Topologic Operação | R$200.000 | R$12.000 | 720 h / 10 h | R$129.600 / R$1.800 | R$36.400 / R$8.160 |
+| Conhecimento privado | R$60.000 | R$6.000 | 180 h / 6 h | R$32.400 / R$1.080 | R$17.400 / R$3.900 |
+| Topologia Viva | R$90.000 | R$8.000 | 300 h / 8 h | R$54.000 / R$1.440 | R$20.700 / R$5.200 |
+| Licenciamento com parceiros | A definir | A definir | A definir | A definir | Não calculável |
+
+Fonte: planning.json; valores propostos para validação. Custo direto = horas × R$180. Contribuição unitária = preço × (1 − 12% tributos − 5% comercial) − custo direto. A soma de 17% serve para comparação estável; o fluxo de caixa existente distingue tributos sobre faturamento de comercial sobre recebimentos. Contribuição não é lucro, não paga automaticamente desenvolvimento, ociosidade, infraestrutura ou investimento e não é previsão de demanda. A reserva comercial de 5% não constitui acordo nem remuneração suficiente presumida para parceiros.
+
+**Crédito de diagnóstico:** se os R$30 mil forem integralmente creditados no setup de R$200 mil, o cliente paga R$30 mil + saldo de R$170 mil, total R$200 mil, não R$230 mil. Os custos do diagnóstico não desaparecem. Se suas 80 h forem adicionais às 720 h e não houver reutilização comprovada, o custo direto combinado é R$144 mil e a contribuição combinada é R$22 mil, não a soma das duas contribuições isoladas. Se houver reutilização, medir e revisar o escopo sem contabilizar as mesmas horas duas vezes. Não projetamos receita independente e ilimitada de aluguel da DGX.
+
+
 ## 11. Sociedade
 
 | Participante | Participação | Identificação |
@@ -371,19 +471,21 @@ As fontes descrevem tecnologia, fluxos ou obrigações. Não demonstram intenç�
 - [NVIDIA: hardware DGX Spark](https://docs.nvidia.com/dgx/dgx-spark/hardware.html) e [receita de inferência em uma máquina](https://build.nvidia.com/spark/vllm). Não são benchmark da nossa carga.
 - [OpenAI: MCP](https://developers.openai.com/plugins/concepts/mcp-server). Suporte depende do cliente e do plano.
 
-### Verificação realizada
+### Verificação do modelo anterior e limites desta atualização
 
-Modelo independente de 24 meses com marcos 40/40/20, custos de 720 h, recebimentos defasados, uma não renovação por cenário e ausência de sobreposição de implantações. Foram comparados **1.728 resultados mensais** com as fórmulas da planilha. **1.847 fórmulas** foram mantidas com valores calculados em cache e o arquivo foi reaberto para conferência. Faturamento menos recebimentos foi reconciliado com contas a receber, e saídas/entradas com o caixa acumulado.
+Registro da revisão financeira anterior, preservado como histórico: modelo independente de 24 meses com marcos 40/40/20, custos de 720 h, recebimentos defasados, uma não renovação por cenário e ausência de sobreposição de implantações. Naquela revisão foram comparados **1.728 resultados mensais** com a planilha e registradas **1.847 fórmulas** com valores em cache. Este registro não afirma uma nova execução de Excel/LibreOffice ou validação física da infraestrutura.
 
-A planilha permite conferir Premissas, Infraestrutura, Agenda, Capacidade e Resumo. Verificado e CSV são snapshots desta revisão e não se atualizam quando premissas mudam. Recalcular no Excel/LibreOffice ao editar. Não foi executado Excel/LibreOffice, teste físico da DGX, integração produtiva, entrevista de comprador ou cotação formal.
+A planilha mantém Premissas, Infraestrutura, Agenda, Capacidade, Resumo e as abas de 24 meses. Esta atualização acrescenta Perspectivas, Desenvolvimento e Monetização, com entradas identificadas, fórmulas e resultados em cache. Os cenários existentes não foram recalibrados. Verificado, CSVs e textos são snapshots e não se atualizam quando premissas mudam; recalcular a planilha no Excel/LibreOffice e reconciliar os documentos ao editar. Não foi executado Excel/LibreOffice, teste físico da DGX, integração produtiva, entrevista de comprador ou cotação formal.
 
 ### Mudanças desta revisão
 
-- Oferta única: Topologic Operação, implantação R$200 mil + mensalidade proposta R$12 mil.
+- Oferta principal mantida: Topologic Operação, implantação R$200 mil + mensalidade proposta R$12 mil. Ofertas adjacentes identificadas como hipóteses fora das projeções.
 - Implantação de três meses,600 h +20% de contingência e custo/hora de R$180.
 - Menos vendas projetadas, início posterior, uma implantação por vez e não renovação explícita.
 - Custos fixos de R$37 mil/R$42 mil, tributação provisionada a 12% e pagamento por marcos com prazo.
 - Seis aplicações setoriais, com comprador, ocasião, benefício, limite e prioridade.
 - Uma DGX, teto de infraestrutura de R$100 mil no primeiro ano e sociedade 50/50 preservados.
+- Capital total inicial de R$100 mil/R$150 mil/R$200 mil separado de infraestrutura e preço comercial, com caixa restante, meses financiados e lacunas explícitas.
+- Desenvolvimento condicionado a aceite e caixa; arquitetura compartilhada, capacidade, privacidade e sequência de construção detalhadas.
 
 **Documento público de planejamento.** Não é oferta pública de valores mobiliários, contrato, laudo técnico, parecer jurídico/tributário ou autorização de compra.

@@ -1,0 +1,4 @@
+﻿capital_total_inicial_BRL;hardware_BRL;preoperacional_BRL;M0_BRL;fixo_mensal_BRL;caixa_apos_M0_BRL;meses_sem_receita_sem_reserva;meses_completos;saldo_apos_meses_completos_BRL;falta_3_meses_BRL;falta_6_meses_BRL;falta_base_24_meses_BRL;lancamento_financiado;fonte_status
+100000;76000;24000;100000;37000;0;0;0;0;111000;222000;730000;Não;"planning.json; hipóteses sem receita e sem reserva; cenários 24 meses inalterados"
+150000;76000;24000;100000;37000;50000;1,3513513513513513;1;13000;61000;172000;680000;Não;"planning.json; hipóteses sem receita e sem reserva; cenários 24 meses inalterados"
+200000;76000;24000;100000;37000;100000;2,7027027027027026;2;26000;11000;122000;630000;Não;"planning.json; hipóteses sem receita e sem reserva; cenários 24 meses inalterados"
