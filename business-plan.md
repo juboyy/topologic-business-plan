@@ -4,7 +4,7 @@
 
 [Apresentação espacial](index.html) · [Planilha de custos, capacidade e cenários](modelo-financeiro.xlsx) · [Cenários mensais](cenarios-24-meses.csv) · [Perspectivas de investimento](perspectivas-investimento.csv)
 
-> **Escopo separado do pitch para Dani:** este documento mantém a hipótese de expansão Topologic enterprise. O [pitch do portfólio inicial](pitch.html) e o [modelo financeiro do portfólio](modelo-portfolio.xlsx) consideram apenas Loja LATAM e Mapa de Arquitetura de TI, com premissas próprias. Não somar os dois modelos nem tratar o diagnóstico deste plano como a oferta de Mapa de TI do pitch.
+> **Escopo separado do pitch para Dani:** este documento mantém a hipótese de expansão Topologic enterprise. O [pitch da infraestrutura produtiva AUMI](pitch.html) e o [modelo financeiro do portfólio](modelo-portfolio.xlsx) consideram Loja LATAM, conteúdo, código/automação, atendimento assistido e Mapa de Arquitetura de TI, com premissas próprias. Não somar os dois modelos nem tratar o diagnóstico deste plano como a oferta de Mapa de TI do pitch.
 
 ## 1. O produto que vamos vender
 
