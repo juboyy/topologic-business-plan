@@ -1,388 +1,389 @@
-# Topologic — plano de negócio
+# Topologic Operação — plano de negócio
 
-**Base: 01/10/2026. Revisão: início com uma DGX Spark. Horizonte: 24 meses.**
+**Revisão: 02/10/2026. Implantação: R$200 mil. Uma DGX no início. Horizonte: 24 meses.**
 
-Este plano explica o produto, os benefícios que queremos demonstrar, a capacidade planejada e o dinheiro necessário para operar. Os valores são hipóteses de planejamento, não vendas realizadas, cotações confirmadas ou promessas de resultado.
+[Apresentação resumida](index.html) · [Planilha de custos, capacidade e cenários](modelo-financeiro.xlsx) · [Cenários mensais](cenarios-24-meses.csv)
 
-[Apresentação resumida](index.html) · [Planilha financeira e de capacidade](modelo-financeiro.xlsx) · [Cenários mensais em CSV](cenarios-24-meses.csv)
+## 1. O produto que vamos vender
 
-## 1. O que o Topologic oferece
+**Topologic Operação é uma plataforma para entender, discutir e acompanhar mudanças em uma operação empresarial.** O cliente recebe um ambiente próprio, organizado com os seus processos, sistemas, regras, responsáveis e fontes de informação. Esse ambiente é usado nas reuniões e mantido ao longo do contrato.
 
-O Topologic é proposto como um ambiente para entender como uma empresa funciona. Reúne atividades, sistemas, regras e responsáveis em um mapa que pode ser explorado durante uma reunião.
+O que vendemos é **a plataforma com implantação assistida e manutenção do conhecimento**, não uma DGX, um desenho bonito ou horas de consultoria sem uma entrega de produto.
 
-A equipe pode consultar de onde veio uma informação, discutir uma mudança e registrar o que foi decidido. Uma pessoa nova pode usar esse conhecimento para aprender a operação. Um assistente de inteligência artificial poderá responder perguntas sobre o mesmo mapa, respeitando as permissões de cada pessoa.
+A primeira versão comercial tem uma finalidade clara: permitir que negócio, tecnologia e fornecedores consultem o mesmo contexto, entendam dependências e registrem decisões durante uma transformação ou transição relevante.
 
-**O benefício central a demonstrar é mais clareza para compreender, discutir e acompanhar a operação.** A tecnologia é o meio. O valor precisa aparecer no trabalho das pessoas.
+**Explicação para apresentar:** “Organizamos o funcionamento de uma parte importante da sua empresa em um mapa que sua equipe consegue consultar, discutir e manter. Você enxerga como o trabalho se conecta, confere as informações e registra quem deve fazer o quê.”
 
-Já existe uma demonstração visual com conceitos, objetos e relações. Isso não comprova um produto pronto para clientes, conectores funcionando em produção ou ganhos financeiros. Essas etapas ainda precisam ser entregues e testadas.
+Existe uma demonstração com conceitos e relações. A plataforma produtiva, os conectores, a segurança e a capacidade ainda precisam ser homologados. Definir a oferta não significa que tudo já esteja pronto para vender sem condições de entrega.
 
-## 2. Características, benefícios e vantagens
+## 2. A oferta comercial definida
 
-Os benefícios abaixo são resultados esperados. Ainda não foram medidos em clientes pagantes. A comparação deve ser feita com a forma atual de trabalhar de cada cliente, inclusive suas ferramentas já contratadas.
-
-| O que o produto oferece | Como isso ajuda | Vantagem que queremos demonstrar | Como verificar |
-|---|---|---|---|
-| Mapa visual de atividades, áreas e sistemas | Ajuda todos a acompanhar o mesmo assunto | Menos tempo reconstruindo o contexto de uma reunião | Comparar tempo de preparação e acerto nas perguntas importantes |
-| Nomes e significados organizados | As áreas passam a consultar as mesmas definições | Menos mal-entendidos sobre processos, informações e responsabilidades | Registrar divergências e verificar se foram resolvidas pelo dono do processo |
-| Conhecimento compartilhado | Facilita ensinar pessoas que estão chegando | Menor dependência de quem guarda tudo na memória | Verificar se outra pessoa consegue explicar o fluxo e localizar os responsáveis |
-| Informações ligadas às fontes | Permite conferir documentos e registros usados | Mais segurança para discutir uma decisão | Conferir origem, data e validade das respostas |
-| Decisões com responsáveis registrados | Deixa claro quem fará o quê | Mais facilidade para acompanhar os combinados | Verificar responsáveis, condições e andamento das decisões |
-| Consulta por conversa, prevista no produto | Permite fazer perguntas em linguagem comum | Menos barreiras para quem não domina telas técnicas | Comparar qualidade, evidência e permissões com um assistente usando as mesmas fontes |
-| Acompanhamento de mudanças, como expansão | Pode avisar sobre situações que exigem atenção | Menos verificações manuais quando as regras forem confiáveis | Medir avisos úteis, falsos alarmes, duplicação e encaminhamento correto |
-
-O mapa em três dimensões é uma opção de visualização. Também são previstas formas em duas dimensões e listas. A melhor interface é a que ajuda a pessoa a realizar a tarefa; não se presume que o 3D seja sempre superior.
-
-## 3. Um exemplo simples
-
-Uma empresa vai trocar o fornecedor que cuida de parte de seus sistemas.
-
-1. A equipe abre o mapa do trabalho que será transferido.
-2. Vê quais áreas, sistemas e pessoas participam.
-3. Confere as informações disponíveis e identifica o que ainda falta esclarecer.
-4. Discute a mudança sem misturá-la com a operação atual.
-5. Registra o que foi combinado, quem é responsável e quais condições precisam ser cumpridas.
-
-O Topologic pode apoiar a compreensão e a passagem de conhecimento. Não substitui a experiência dos responsáveis, não garante uma transição sem falhas e não prova a causa de um problema apenas por desenhar uma ligação.
-
-## 4. Quem pode contratar
-
-A hipótese inicial é atender empresas privadas brasileiras com vários sistemas e fornecedores, diante de uma mudança relevante. Exemplos: troca de sustentação, treinamento de equipe, migração de sistema ou integração de unidades.
-
-O comprador provável é responsável por tecnologia, aplicações ou transformação. A área de negócio precisa participar, porque conhece o significado das atividades. O cliente também deve indicar uma pessoa para manter o conhecimento atualizado.
-
-Uma oportunidade precisa ter problema concreto, orçamento, responsável, acesso autorizado às informações e uma decisão que o produto possa apoiar. Interesse apenas na aparência do mapa não comprova intenção de compra.
-
-Oracle Fusion/OIC é uma possibilidade de entrada técnica, condicionada à experiência da equipe e ao acesso comercial. A demonstração não comprova uma integração já instalada. Saúde, governo e setores altamente regulados não são a entrada padrão deste plano.
-
-### Alternativas que o cliente já possui
-
-Documentos, planilhas, reuniões, consultorias, ferramentas de arquitetura, cadastros de sistemas e assistentes de IA são alternativas reais. SAP LeanIX, ServiceNow, Celonis e ferramentas de atendimento podem resolver partes do problema.
-
-A vantagem do Topologic precisa estar na compreensão útil, na evidência e na continuidade do conhecimento com custo sustentável. Ter um mapa, usar IA ou possuir uma DGX não é vantagem comercial suficiente por si só.
-
-Não há mercado endereçável, demanda própria, taxa de conversão ou carteira de clientes comprovados. O primeiro trabalho comercial é qualificar empresas alcançáveis, não multiplicar uma estatística de uso de ERP por um preço de venda.
-
-## 5. Quantas pessoas pretendemos atender
-
-### Resposta em linguagem simples
-
-**A meta inicial é permitir acesso a até 100 pessoas, começando com uma DGX Spark e um pequeno servidor de aplicação.** Dentro desse grupo, a meta é ter até 20 pessoas consultando o mapa e os registros ao mesmo tempo.
-
-Isso **não significa 100 conversas simultâneas com a inteligência artificial**. Para começar com controle, o planejamento considera uma resposta de IA em execução por vez e até duas perguntas aguardando. Novas perguntas acima desse limite precisam receber um aviso claro; não devem entrar numa fila sem prazo.
-
-Esses números são **metas de implantação, ainda não capacidade comprovada**. A empresa deve começar com um grupo menor e só liberar o volume previsto depois de testar tempo de resposta, qualidade, segurança e custo.
-
-| Forma de uso | Meta inicial | Condição |
+| Parte da oferta | Preço proposto | O que o cliente recebe |
 |---|---:|---|
-| Pessoas com acesso à plataforma | Até 100 | Usuários identificados; perfil de uso abaixo; sem licenças ilimitadas |
-| Pessoas consultando mapas e registros ao mesmo tempo | Até 20 | Teste do servidor da aplicação, banco e telas reais |
-| Pedidos de IA em execução ao mesmo tempo | 1 | Modelo e configuração aprovados; sem processamento pesado concorrente |
-| Pedidos de IA aguardando | Até 2 | Fila curta e aviso explícito quando lotada |
-| Empresas equivalentes | 10 com 10 pessoas ou 20 com 5 | Exemplos de distribuição das mesmas 100 pessoas, não limites comprovados por hardware |
+| **Implantação Topologic Operação** | **R$200.000** | Construção e validação do ambiente do cliente, em três meses após cumprimento dos pré-requisitos |
+| **Uso e manutenção da plataforma** | **R$12.000/mês** | Acesso, manutenção do recorte, suporte e dez horas mensais de curadoria após aceite |
+| Escopo adicional | Proposta separada | Nova unidade, novos processos, conectores não homologados, mais usuários ou esforço além do contratado |
 
-As pessoas contadas são **usuários que acessam o produto**. Não são todos os funcionários de uma empresa representados no mapa. Tampouco são pessoas atendidas individualmente por consultores durante todo o dia.
+**R$200 mil é somente implantação.** A mensalidade é uma hipótese comercial proposta nesta revisão, ainda sem validação com compradores. Não está incluída nos R$200 mil.
 
-### Como chegamos a essa meta
+Implantação + doze mensalidades somam **R$344 mil**. Esse ciclo contém três meses de implantação e doze meses de uso, portanto não corresponde aos primeiros doze meses contados do início. A cobrança recorrente começa no mês seguinte ao aceite, e não antes de o ambiente ser entregue. O modelo não presume pagamento anual antecipado.
 
-O exemplo considera 100 pessoas cadastradas, das quais 40 usam IA num dia. Cada uma faz seis perguntas curtas. Isso produz 240 perguntas em oito horas, ou 30 por hora em média. Para a hora mais movimentada, usamos o dobro: **60 perguntas por hora**.
+A contratação é uma licença de uso da plataforma, não compra de seu código-fonte. Os dados do cliente e os direitos de exportação do modelo precisam estar protegidos no contrato. Ao encerrar a assinatura, não se promete manutenção contínua do ambiente exportado.
 
-Para atender esse perfil, propomos testar respostas que ocupem a máquina por até cerca de 20 segundos no perfil de referência. Uma execução por vez permitiria aritmeticamente 180 perguntas por hora. Planejamos usar só metade dessa capacidade, deixando **90 perguntas por hora** para o dimensionamento. O perfil de 100 pessoas demandaria 60, deixando 30 perguntas por hora de folga dentro desse limite já reduzido.
+O contrato deve prever doze meses iniciais de assinatura após aceite, direitos de saída, exportação, reajustes, proteção de dados e responsabilidades. Uma não renovação depois desse período está incluída em cada cenário. Não projetamos assinatura perpétua.
 
-**Os 20 segundos são uma meta a medir, não uma velocidade observada da DGX.** O cálculo mostra o que precisa ser verdadeiro para o plano funcionar; não comprova que a máquina já entregou esse resultado.
+### O que cabe no pacote de implantação
 
-| Pessoas com acesso | Pessoas que usam IA/dia | Perguntas/dia | Perguntas na hora de pico | Leitura do planejamento |
-|---|---:|---:|---:|---|
-| 50 | 20 | 120 | 30 | Grupo menor para ensaio e início controlado |
-| 100 | 40 | 240 | 60 | Meta inicial, após aprovação dos testes |
-| 150 | 60 | 360 | 90 | Limite aritmético aproximado deste perfil, sem folga adicional; não é oferta inicial |
-| 200 | 80 | 480 | 120 | Excede o limite planejado de 90; exige mudar perfil, desempenho ou estrutura |
+- Uma organização, uma unidade ou ambiente operacional principal.
+- Uma cadeia de trabalho delimitada, com até três processos relacionados.
+- Até dois conectores de leitura já homologados antes do início, mais carga documental autorizada.
+- Até 150 entidades estruturais: atividades, sistemas, regras, papéis, documentos e suas relações. Não é a quantidade de transações do ERP.
+- Até dez usuários identificados, incluindo patrocinador, responsáveis e curadores.
+- Três visões preparadas para pautas de reunião.
+- Fontes, responsáveis, lacunas, validade das informações e decisões registradas.
+- Revisão com negócio e TI, treinamento dos curadores, exportação e passagem de operação.
+- Consulta em linguagem comum, com respostas baseadas nas fontes e nas permissões; cliente MCP externo apenas quando compatível e autorizado.
 
-Se cada pessoa fizer o dobro de perguntas, a meta de pessoas cai pela metade, mantidas as demais premissas. Documentos maiores, respostas longas, conversas extensas e trabalho pesado em paralelo também reduzem a capacidade. Não é possível prometer uma quantidade de pessoas apenas pela memória do computador.
+Esses limites protegem o trabalho e a capacidade; não são a justificativa de preço. O comprador paga pela utilidade para uma iniciativa importante. Se o recorte for pequeno demais para gerar valor, não se deve empurrar um contrato de R$200 mil.
 
-### Quando ampliar
+### O que não está incluído
 
-Reavaliar antes de passar de 100 pessoas, 20 consultas simultâneas ao mapa, 60 perguntas de IA na hora de pico ou do orçamento mensal de hospedagem. Observar lentidão, pedidos recusados, fila e tempo de resposta. Atingir esses números abre uma revisão; não autoriza automaticamente comprar outra máquina.
+Toda a organização, várias unidades, desenvolvimento irrestrito de conectores, saneamento ilimitado, integração produtiva não autorizada, alteração no ERP, cálculo de estoque, gestão clínica, plantão 24×7 ou decisões autônomas.
 
-Primeiro é preciso medir e otimizar o uso. Uma segunda DGX fica fora do orçamento inicial e só entra com demanda, caixa e proposta aprovados. Se o ensaio da primeira máquina falhar, reduzir o grupo atendido ou rever a solução; não vender a capacidade como comprovada.
+A Topologia Viva, com observação de eventos e ações autorizadas, é expansão futura. **Não há receita dessa expansão nas projeções desta revisão.** Os antigos pacotes de R$36 mil de implantação, R$7,5 mil mensais e demais valores deixam de ser a oferta ou a base deste plano. O modelo foi reconstruído para R$200 mil de setup.
 
-## 6. Infraestrutura dentro de R$100 mil
+### O que a mensalidade mantém
 
-**O teto cobre equipamentos e uma provisão para os primeiros 12 meses de infraestrutura. Não é o custo total de manter a empresa.**
+O ambiente disponível, suas permissões, versões e fontes; correções da plataforma; manutenção dos dois conectores suportados; apoio à atualização do recorte; uma reunião mensal de revisão dentro das dez horas de curadoria; suporte em horário comercial e exportação conforme contrato.
 
-| Item | Orçamento |
+Não é promessa de consultar e atualizar tudo automaticamente. O cliente continua indicando quem aprova o significado das informações. Horas excedentes, novo escopo e requisitos especiais precisam de aprovação prévia. Prazos de suporte e recuperação dependem de homologação; não prometer SLA 24×7.
+
+## 3. Características, benefícios e vantagens
+
+| Característica | Benefício esperado | Vantagem a demonstrar |
+|---|---|---|
+| Mapa visual da operação | Ajuda a entender como as atividades se conectam | Menos tempo reconstruindo contexto nas reuniões |
+| Conceitos e significados compartilhados | As áreas consultam as mesmas definições | Menos mal-entendidos sobre responsabilidades e regras |
+| Informações ligadas às fontes | Permite conferir origem, data e validade | Mais segurança ao discutir decisões |
+| Conhecimento mantido no ambiente do cliente | Facilita ensinar quem está chegando | Menor dependência de uma única pessoa |
+| Decisões ligadas ao assunto e ao responsável | Deixa claro quem fará o quê | Mais facilidade para acompanhar os combinados |
+| Consulta por conversa | Permite perguntar sem dominar telas técnicas | Menos barreiras para localizar conhecimento autorizado |
+
+São benefícios a medir, não resultados históricos. O cliente já possui documentos, planilhas, especialistas, ERP, gestão de projetos e outras ferramentas. Precisamos mostrar utilidade adicional, não cobrar de novo por algo que já funciona bem.
+
+3D, duas dimensões e listas são formas de acessar o mesmo conhecimento. O 3D deve ajudar uma tarefa real; não se presume superioridade por ser mais chamativo. MCP é uma forma de conectar assistentes, não o produto inteiro.
+
+## 4. O que significa Topologic em diferentes nichos
+
+**Um produto, com recortes de aplicação diferentes.** O núcleo não muda a cada setor. Mudam os conceitos, as perguntas, os responsáveis e as fontes. As aplicações abaixo são propostas de entrada, não projetos vendidos ou demanda comprovada.
+
+| Nicho | O que o Topologic seria ali | Quem compra e quando | Benefício a testar | Limite | Prioridade |
+|---|---|---|---|---|---|
+| Indústria | Mapa de uma mudança em uma família de produtos: planejamento, produção e liberação. | Diretor industrial/operações; transferência de produção, nova linha ou mudança relevante de ERP. | Entender o que a mudança afeta, quem deve validar e quais condições faltam. | Não programa máquinas, calcula produção ou aprova qualidade. | Prioridade inicial, se houver acesso ao comprador e mudança financiada. |
+| Operadores logísticos | Mapa da entrada de uma operação de cliente em um centro de distribuição: receber, armazenar e expedir. | Diretor de operações/implantação; novo contrato importante ou mudança de CD. | Conferir obrigações, passagens de responsabilidade e condições antes de iniciar. | Não é rastreamento de carga nem sistema de transporte ou armazém. | Segunda frente; depende de fontes acessíveis e integração dentro do pacote. |
+| Distribuição e atacado | Mapa da mudança de regras de recebimento, estoque e expedição de uma família comercial. | Diretor de logística/operações; reconfiguração de CD ou política de atendimento. | Discutir consequências entre comercial e operação, com fontes e decisões registradas. | Não substitui ERP/WMS, calcula estoque ou emite documentos fiscais. | Somente transformação relevante; configuração simples de ERP não justifica R$200 mil. |
+| Serviços e franquias | Mapa das condições para abrir uma unidade: fornecedores, preparação, treinamento e liberação. | Diretor de expansão/operações; programa de novas unidades já aprovado. | Localizar bloqueios e responsáveis antes de confirmar a data de abertura. | Não substitui gestão de tarefas, manuais de franquia, vendas ou ERP. | Alternativa comercial se houver rede com expansão material; não uma loja isolada. |
+| Grupos de educação | Mapa dos contratos e serviços de apoio de um campus incorporado: inventário, dependências e migração. | Diretor administrativo/integração; aquisição ou centralização de serviços. | Decidir quais contratos manter ou trocar sem perder as dependências do campus. | Sem dados de alunos, notas, matrícula ou decisões pedagógicas no primeiro recorte. | Posterior; um simples cadastro contratual pode tornar a proposta cara demais. |
+| Saúde administrativa | Mapa de transição de contratos de apoio predial não clínico em uma unidade. | Diretor administrativo; incorporação ou revisão relevante de fornecedores. | Conferir dependências e responsáveis na passagem entre prestadores. | Excluir pacientes, prontuários, equipamentos assistenciais e decisões clínicas. | Adiar como entrada: maior cuidado documental e menor evidência de justificar o preço no recorte inicial. |
+
+### Exemplo: indústria
+
+Uma fábrica precisa mudar uma família de produtos. O Topologic organiza o fluxo de planejamento, produção e liberação, ligando regras, documentos, sistemas e responsáveis.
+
+A pergunta da reunião pode ser: “O que falta validar para iniciar a nova variante?” A equipe verifica condições, registra dúvidas e decide quem resolve cada uma. O produto não programa máquinas nem libera a qualidade sozinho.
+
+### Exemplo: logística
+
+Um operador vai assumir uma conta em um centro de distribuição. O Topologic organiza obrigações, procedimentos, fontes e passagens de responsabilidade. A reunião decide se a operação pode começar ou quais condições precisam ser atendidas antes.
+
+Isso é diferente de uma tela para rastrear caminhões. Se o cliente quer apenas localizar cargas ou emitir relatórios, não é a nossa oferta inicial.
+
+### Exemplo: serviços e franquias
+
+Uma rede prepara uma abertura. O Topologic relaciona instalações, fornecedores, documentos, treinamento e responsáveis. A equipe identifica qual dependência impede confirmar a data e registra a decisão.
+
+Se uma ferramenta de tarefas já resolve a situação, o contrato de R$200 mil é difícil de justificar. O alvo seria um programa relevante de expansão, não a organização de uma única pequena loja.
+
+### Por onde começar
+
+**Primeira aposta: indústria com uma mudança operacional ou de sistemas já financiada, em um ecossistema que a equipe domine.** Operadores logísticos são a próxima frente. Franquias/serviços multiunidade são alternativa se houver acesso comercial melhor e um problema material.
+
+Essa prioridade é julgamento comercial, não pesquisa de intenção de compra. Não abriremos seis frentes simultâneas. Escolher uma entrada, repetir a implantação e só então adaptar o pacote. Saúde administrativa e educação ficam para uma etapa posterior, com cuidados de dados e escopo próprios.
+
+Oracle Fusion/OIC pode ser o primeiro conjunto técnico se houver experiência real e acesso ao comprador. Fontes da Microsoft citadas ao fim apenas ilustram processos; não anunciam conector Microsoft pronto no Topologic.
+
+## 5. Quando R$200 mil pode fazer sentido
+
+O candidato precisa ter uma transformação com orçamento, dependências entre áreas, patrocinador, acesso aos dados e pessoas disponíveis para validar. Deve ser possível explicar por que o modo atual de trabalhar não é suficiente.
+
+Antes da proposta, registrar:
+
+1. Qual decisão ou transição será apoiada e qual é o prazo.
+2. Como o cliente resolve isso hoje e o que falta.
+3. Qual esforço, retrabalho ou exposição pode ser medido sem inventar economia.
+4. Quem compra, aprova as fontes e mantém o conhecimento.
+5. Por que esse benefício merece R$200 mil de implantação e R$12 mil/mês.
+
+Poupar algumas horas de reunião, sozinho, provavelmente não justifica o contrato. A iniciativa precisa ter alcance e benefício maiores, demonstráveis pelo cliente. Risco evitado não pode ser contado como dinheiro economizado sem evidência.
+
+A decisão de preço é da oferta; a disposição de pagar ainda precisa ser testada em propostas reais. Se o comprador não enxergar valor suficiente, rever recorte, custo e produto. Não supor que o valor ficará evidente apenas vendo a demo.
+
+## 6. Entrega em três meses e critérios de aceite
+
+| Etapa | Entrega | Aceite esperado |
+|---|---|---|
+| Mês 1 | Escopo, fontes, perguntas críticas, responsáveis e primeiro modelo | Patrocinador confirma fronteiras; donos confirmam conceitos e acesso |
+| Mês 2 | Fontes homologadas conectadas, mapa revisado, visões e lacunas | Negócio e TI validam relações e informações críticas; dúvidas ficam explícitas |
+| Mês 3 | Casos de validação, reuniões, treinamento, exportação e passagem | Usuários executam as tarefas acordadas; permissões e recuperação foram testadas |
+
+Antes de começar: contrato, entrada recebida, dono e curador nomeados, direitos de acesso e conectores aprovados. Sem essas condições, o cronograma não começa. Atraso do cliente ou alteração de escopo precisa ser registrado e renegociado, não escondido numa promessa de prazo.
+
+O aceite deve comparar perguntas e tarefas acordadas, identificação de fontes, separação de operação atual e mudança proposta, permissões, exportação e uso sem condução constante do fundador. Não é garantia de ausência de falhas operacionais ou de economia financeira em 90 dias.
+
+### Esforço orçado
+
+| Trabalho | Horas-base |
 |---|---:|
-| Uma DGX Spark, computador dedicado à IA | R$65.000 |
-| Nobreak e proteção elétrica | R$4.000 |
-| Rede e segurança de perímetro | R$2.000 |
-| Backup local | R$3.000 |
-| Periféricos essenciais | R$2.000 |
-| **Equipamentos no início** | **R$76.000** |
-| Hospedagem, banco de dados, cópia externa e monitoramento: R$1.000/mês × 12 | R$12.000 |
-| Energia e conectividade adicionais: R$500/mês × 12 | R$6.000 |
-| Reserva para imprevistos de infraestrutura | R$6.000 |
-| **Total reservado para os primeiros 12 meses** | **R$100.000** |
+| Diagnóstico, perguntas e delimitação | 80 |
+| Modelagem e validação de conceitos/processos | 160 |
+| Configuração de fontes suportadas e carga autorizada | 120 |
+| Visões, permissões e decisões | 80 |
+| Testes, revisão de fontes e aceite | 80 |
+| Treinamento e passagem | 80 |
+| **Total-base** | **600** |
+| Contingência de esforço, 20% | 120 |
+| **Orçamento total** | **720** |
 
-O preço de R$65 mil para a DGX é uma provisão, não cotação válida de fornecedor brasileiro. Os demais valores também são estimativas. Antes da compra, confirmar nota fiscal, impostos, frete, garantia, suporte e custo total. Se a contratação real não couber no teto, ajustar o plano antes de gastar. Não aumentar o orçamento automaticamente.
+As 720 horas a R$180/h custam **R$129.600** por implantação. A projeção consome a contingência integralmente, como hipótese conservadora de custo, não como trabalho já contratado ou medido.
 
-A reserva de R$6 mil não é uma despesa já realizada. Ela integra a reserva geral de caixa e não é somada de novo ao capital total. A hospedagem e as contas mensais entram nas despesas fixas, sem serem repetidas como custo de infraestrutura de cada cliente.
+Em três meses, são 240 horas diretas por mês. A assinatura acrescenta dez horas mensais por cliente ativo, a R$180/h: **R$1.800 por cliente/mês**. O custo da aplicação compartilhada está nos fixos, sem repetição por cliente.
 
-A operação supõe uma sala segura e uma conexão principal já disponíveis. Não inclui novo escritório, obra, ar-condicionado novo, certificação ou infraestrutura exclusiva exigida por um cliente. Qualquer necessidade adicional depende de orçamento e aprovação.
+Produto e engenharia internos desenvolvem e sustentam a plataforma. Prestadores orçados executam implantação e curadoria. Não usar a mesma pessoa como desenvolvedor integral e implantador integral ao mesmo tempo. O desenvolvimento dos conectores iniciais acontece antes da venda, dentro do orçamento de produto; não é P&D ilimitado embutido no contrato.
 
-### O que fica fora desse teto
+## 7. Como faturamos e quando recebemos
 
-Equipe, desenvolvimento do produto, implantação e curadoria para clientes, vendas, tributos, jurídico e revisão inicial de segurança. O plano mantém R$24 mil de despesas pré-operacionais: R$12 mil de jurídico/constituição e R$12 mil de revisão de segurança. Por isso, o desembolso inicial total é **R$100 mil: R$76 mil de equipamentos + R$24 mil pré-operacionais**. É uma composição diferente do teto de infraestrutura de 12 meses.
-
-Depois do primeiro ano, os serviços e contas continuam. Mantido o mesmo perfil, a infraestrutura exige mais R$18 mil de operação no segundo ano. Equipamentos + 24 meses de serviços + a mesma reserva somam **R$118 mil**, sem segunda DGX. Isso já está refletido no cenário de 24 meses. O teto de R$100 mil não é uma promessa de custo vitalício.
-
-## 7. Como operar com uma única DGX
-
-A DGX executa a inteligência artificial. Um servidor separado hospeda a aplicação, os registros e as regras. Assim, o mapa não precisa depender de uma resposta da IA para ser consultado. Essa separação ainda deve ser implementada e testada.
-
-Durante o atendimento, a prioridade da DGX é responder às perguntas autorizadas. Desenvolvimento, atualização de modelos e processamento pesado de documentos ficam em horários separados. Uma máquina não oferece redundância: em caso de falha, a IA pode ficar indisponível até recuperação. Não há promessa de atendimento 24 horas.
-
-Backups externos, controle de acesso e recuperação testada são necessários. IA local não resolve sozinha segurança ou privacidade. Usar Claude ou ChatGPT como interface pode enviar informações a essas plataformas; isso exige autorização. Esses modelos externos não passam a funcionar dentro da DGX por estarem conectados ao Topologic.
-
-O servidor web de referência para o ensaio tem quatro CPUs virtuais e 8 GB de memória. O pacote de R$1 mil/mês deve cobrir aplicação, banco, cópias externas e monitoramento dentro da região e das condições aprovadas. Isso também exige cotação e teste; não é configuração produtiva instalada.
-
-## 8. Oferta e preço
-
-### Contrato estratégico de R$200 mil: hipótese prioritária
-
-A proposta a testar reúne implantação de um recorte relevante e um período contratado de uso durante uma transformação. O cliente deve saber quais processos serão cobertos, quem participa, quais fontes serão usadas, o que será entregue e como a entrega será aceita.
-
-R$200 mil não é mensalidade, contrato vendido ou preço validado. Duração, pagamento, escopo e custo de entrega ainda devem ser negociados. A contratação pode fazer sentido para uma mudança relevante, mas precisa ser justificada pelo resultado e pela alternativa atual do comprador.
-
-O acompanhamento automático de eventos não é obrigatório para justificar valor estratégico. O produto pode ser útil para entendimento, passagem de conhecimento e decisões mesmo sem essa expansão.
-
-### Preços usados nas contas financeiras
-
-| Oferta | Hipótese de preço | Limite principal |
+| Marco | Faturamento | Recebimento usado no modelo |
 |---|---:|---|
-| Implantação estratégica de referência | R$36 mil | Uma organização, um domínio, até três processos relacionados e duas fontes de leitura já suportadas |
-| Assinatura estratégica | R$7,5 mil/mês | Workspace mantido, seis horas mensais de curadoria/suporte e uso dentro do perfil contratado |
-| Topologia Viva, expansão de acompanhamento | +R$4,5 mil/mês | Eventos e até cinco regras homologadas, mais quatro horas mensais de apoio |
-| Piloto estratégico | R$24 mil | Um processo, dados autorizados e entrega documental delimitada; fora das projeções |
-| Expansão organizacional | R$14,9 mil/mês; implantação total a partir de R$72 mil | Hipótese futura, não capacidade comercial pronta e fora das projeções |
+| Início autorizado | R$80.000, 40% | No início, antes de alocar a implantação |
+| Validação do modelo, segundo mês | R$80.000, 40% | No terceiro mês, cerca de 30 dias depois |
+| Aceite, terceiro mês | R$40.000, 20% | No quarto mês, cerca de 30 dias depois |
+| Assinatura após aceite | R$12.000/mês | Um mês após faturar |
 
-A ativação Viva proposta de R$12 mil também está fora das projeções. A tese de R$200 mil não foi multiplicada pelos clientes do modelo: seria necessário recalcular esforço, conversão, prazo e recebimento. O preço de referência e a oferta-alvo permanecem explicitamente separados.
+O último pagamento depende de aceite real; não existe por calendário apenas. O modelo assume os marcos aprovados em três meses e não inclui inadimplência ou disputas. Atrasos pioram o caixa e devem ser negociados antes de comprometer a entrega.
 
-Não estão incluídos conectores novos, saneamento ilimitado, toda a organização, plantão 24×7, mudanças no ERP ou licenças de ferramentas externas. Novos trabalhos precisam de proposta. 3D e consulta por conversa são interfaces do mesmo produto, não taxas separadas automaticamente.
+Faturamento, recebimento e receita contábil reconhecida são conceitos diferentes. As tabelas são gerenciais por marcos de faturamento, não uma DRE auditada. No cenário-base, o quinto projeto inicia no mês 23: sua última parcela só é faturada no mês 25, fora do horizonte. Por isso não contamos cinco implantações inteiras como faturadas e recebidas nos 24 meses.
 
-## 9. Entrega e trabalho humano
+## 8. Projeções prudentes, sem vendas inventadas
 
-A sequência prevista é: definir pergunta e escopo; indicar dono e curador; autorizar dados; organizar fontes; revisar o modelo; realizar uma reunião real; treinar a equipe; combinar manutenção e saída.
+Não temos histórico próprio para chamar os cenários de previsões calibradas. Em vez de aumentar o preço e manter vendas/custos anteriores, esta revisão altera prazo, esforço, tributação, manutenção, equipe, não renovação e recebimentos.
 
-O critério de valor é alguém do cliente conseguir encontrar informações e tomar parte na discussão sem depender continuamente do fundador. O cliente precisa validar o significado dos processos; a ferramenta não resolve sozinha divergências entre áreas.
+### Agenda comercial e capacidade de entregar
 
-A implantação de referência prevê até 150 entidades estruturais no recorte. Na projeção de capacidade, usamos cinco participantes por empresa em média. Um grupo com mais pessoas consome mais do limite compartilhado de 100 e precisa ser dimensionado antes da venda. Não há acesso ilimitado.
+| Cenário | Primeira implantação | Inícios previstos nos 24 meses | Leitura |
+|---|---|---|---|
+| Conservador | M9 | M9, M15, M21 | Três contratos; intervalos longos e validação lenta |
+| Base | M7 | M7, M11, M15, M19, M23 | Cinco contratos; duas entradas no primeiro ano e três no segundo |
+| Expansão | M5 | M5, M8, M11, M14, M17, M20, M23 | Sete contratos; uma implantação a cada três meses, sem sobreposição |
 
-O orçamento de trabalho direto prevê 120 horas por implantação a R$150/hora, total de R$18 mil. A assinatura estratégica prevê seis horas mensais, total de R$900. A Viva acrescenta quatro horas, total de R$600. Infraestrutura é compartilhada e está nos fixos; não há mais uma cobrança interna fictícia de R$600/R$400 de hospedagem por cliente.
+Uma não renovação depois de doze meses de assinatura: M24 no conservador, M22 no base e M20 no expansão. Não é taxa histórica de perda, mas cenário explícito de um cliente que não renova.
 
-Equipe interna desenvolve a plataforma, vende e supervisiona qualidade. Os custos diretos orçam prestadores para implantação e curadoria. Não contar a mesma pessoa duas vezes nem presumir trabalho gratuito dos sócios.
+O prazo comercial de trabalho é **90–180 dias**, hipótese para qualificação, acesso, segurança, compras e decisão; não benchmark de mercado. Produto e homologação acontecem antes do primeiro início. M5 no expansão só é possível com preparação e acesso comercial mais rápidos; não é o compromisso principal.
 
-### Capacidade humana versus capacidade da máquina
+Funil de trabalho do cenário-base: no primeiro ano,60 contas-alvo →12 conversas qualificadas →6 propostas →2 contratos; no segundo,60 contas →15 conversas →9 propostas →3 contratos. São metas de esforço. Fechar um terço das propostas continua incerto; nenhuma dessas contas está apresentada como pipeline existente.
 
-| Cenário | Maior quantidade de ambientes ativos e em implantação | Pessoas, com cinco por ambiente | Maior carga direta de entrega/mês |
-|---|---:|---:|---:|
-| Conservador | 2 | 10 | 66h |
-| Base | 13 | 65 | 194h |
-| Expansão | 18 | 90 | 240h |
+### Estrutura fixa mais enxuta
 
-O cenário-base termina com 12 assinantes. O maior número de ambientes simultâneos, incluindo implantações, é 13. O de expansão termina com 16 assinantes e chega a 18 ambientes simultâneos. Os dois ficam dentro da meta de 100 pessoas **apenas com a hipótese de cinco usuários por ambiente e o perfil de IA estabelecido**.
+| Categoria | Meses 1–12 | Meses 13–24 |
+|---|---:|---:|
+| Produto, domínio e vendas | R$8.000 | R$10.000 |
+| Engenharia da plataforma | R$18.000 | R$20.000 |
+| Especialistas fracionados | R$6.000 | R$6.000 |
+| Hospedagem, banco, backup externo e monitoramento | R$1.000 | R$1.000 |
+| Ferramentas de desenvolvimento | R$1.000 | R$1.000 |
+| Prospecção e deslocamentos | R$1.500 | R$2.000 |
+| Administração, contabilidade e jurídico | R$1.000 | R$1.500 |
+| Energia e conectividade adicionais | R$500 | R$500 |
+| **Total fixo mensal** | **R$37.000** | **R$42.000** |
 
-Com dez pessoas em cada um dos 13 ambientes, seriam 130 usuários, acima da meta inicial. Nesse caso, a admissão comercial precisa ser revista; não basta dizer que o número de empresas cabe.
+São envelopes de custo para a empresa, não salários pesquisados nem cargos atribuídos aos sócios. A implantação e a curadoria estão nos custos diretos separados. Não há contratação automática de uma área inteira de soluções no mês 7. O total fixo de 24 meses é **R$948 mil**.
 
-194 horas diretas equivalem a cerca de 1,62 pessoas com 120 horas produtivas mensais cada. A expansão chega a duas pessoas nessa mesma referência, sem folga nesse limite. Isso é necessidade de agenda e contratação de prestadores, não equipe já disponível. As horas estão orçadas nos custos diretos, fora dos R$100 mil de infraestrutura.
+O incremento do segundo ano depende de caixa e trabalho real; os cenários mantêm esse custo para expor a necessidade de financiamento. Se a tese falhar, o correto é reduzir ou interromper a expansão, não sustentar a mesma estrutura indefinidamente.
 
-## 10. Dinheiro necessário para manter a empresa
+### Economia unitária
 
-### Despesas fixas mensais
-
-Os valores são custos hipotéticos para a empresa, não pesquisa salarial nem promessa de remuneração individual. Papéis dos sócios ainda não foram definidos.
-
-| Categoria | Meses 1–6 | Meses 7–12 | Meses 13–24 |
-|---|---:|---:|---:|
-| Produto, domínio e vendas | R$8.000 | R$10.000 | R$12.000 |
-| Engenharia da plataforma | R$18.000 | R$20.000 | R$22.000 |
-| Engenharia de soluções e relacionamento | — | R$12.000 | R$16.000 |
-| Especialistas fracionados | R$6.000 | R$4.000 | R$6.000 |
-| Hospedagem, banco, backups externos e monitoramento | R$1.000 | R$1.000 | R$1.000 |
-| Ferramentas e APIs de desenvolvimento | R$1.000 | R$1.000 | R$1.500 |
-| Marketing, deslocamentos e prospecção | R$1.500 | R$3.000 | R$3.500 |
-| Contabilidade, jurídico e administração | R$1.000 | R$1.000 | R$1.500 |
-| Energia e conectividade adicionais | R$500 | R$500 | R$500 |
-| **Total fixo mensal** | **R$37.000** | **R$52.500** | **R$64.000** |
-
-Total fixo de 24 meses: **R$1,305 milhão**. A equipe só deve crescer após comprovação de demanda e capacidade. Manter a mesma estrutura no cenário conservador mostra o risco de não ajustar gastos, não recomenda continuar investindo se a tese falhar.
-
-### Regras das projeções
-
-- Equipamentos de R$76 mil e pré-operação de R$24 mil no mês zero.
-- Implantação de R$36 mil em dois marcos de R$18 mil. Custos de R$9 mil em cada um desses meses. Recebimento no mês do marco é hipótese, sem inadimplência provisionada.
-- Assinatura começa dois meses após início nos projetos que convertem. Recebimento recorrente acontece um mês depois do faturamento.
-- Viva a partir do mês 9, com participação de 0%, 20% e 40% dos assinantes por cenário, arredondada para baixo.
-- Provisão tributária de 8% do faturamento. Reserva comercial de 5% dos recebimentos. Não são enquadramento tributário ou comissão negociada.
-- Depreciação de referência: R$76 mil / 36 = R$2.111,11/mês. Não é novo desembolso e não é deduzida novamente do caixa.
-- Sem inflação, reajuste, juros, recebimento anual antecipado, venda das máquinas ou receita de contratos de R$200 mil.
-- Hospedagem compartilhada pressupõe o perfil de capacidade definido. Novos requisitos, mais usuários, segundo equipamento ou consumo maior exigem revisão.
-
-### Economia por oferta, antes dos custos fixos
-
-| Oferta | Receita | Custo direto | Tributos/comercial, referência 13% | Contribuição antes de fixos |
+| Oferta | Receita | Custo direto | Provisão de tributos/comercial | Contribuição antes de fixos |
 |---|---:|---:|---:|---:|
-| Implantação | R$36.000 | R$18.000 | R$4.680 | R$13.320, ou 37% |
-| Estratégico mensal | R$7.500 | R$900 | R$975 | R$5.625, ou 75% |
-| Estratégico + Viva mensal | R$12.000 | R$1.500 | R$1.560 | R$8.940, ou 74,5% |
+| Implantação | R$200.000 | R$129.600 | R$34.000 | **R$36.400,18,2%** |
+| Mensalidade | R$12.000 | R$1.800 | R$2.040 | **R$8.160,68%** |
 
-Essas contribuições ainda precisam pagar toda a estrutura. A hospedagem foi centralizada no fixo; sua retirada do custo por cliente não significa infraestrutura gratuita. No caixa, tributos acompanham faturamento e a reserva comercial acompanha recebimentos, portanto o momento do desembolso difere.
+Tributos:12% do faturamento, hipótese gerencial a confirmar com contador. Comercial:5% dos recebimentos, reserva média, não comissão oferecida a parceiros. Para a comparação unitária estável, somam 17%; no fluxo mensal respeitamos os momentos diferentes.
 
-Se a implantação consumir 200 horas, o custo direto sobe para R$30 mil e a contribuição cai para R$1.320 antes dos fixos. Mais vendas com escopo mal controlado podem piorar o negócio.
+**Setup alto não significa margem alta.** A implantação precisa pagar trabalho especializado. Se consumir 20% mais horas além das 720 já orçadas, o custo passa a R$155.520 e sobram apenas R$10.480 antes dos fixos. Controlar escopo é condição de sobrevivência.
 
-### Cenários em 24 meses
+### Resultados calculados
 
 | Indicador | Conservador | Base | Expansão |
 |---|---:|---:|---:|
-| Projetos iniciados | 5 | 15 | 21 |
-| Assinantes no mês 12 | 1 | 4 | 6 |
-| Assinantes no mês 24 | 2 | 12 | 16 |
-| Receita mensal de assinaturas no mês 24 | R$15.000 | R$99.000 | R$147.000 |
-| Faturamento ano 1 | R$109.500 | R$343.500 | R$505.500 |
-| Faturamento ano 2 | R$220.500 | R$1.165.500 | R$1.672.500 |
-| Recebimentos ano 1 | R$102.000 | R$313.500 | R$451.500 |
-| Recebimentos ano 2 | R$213.000 | R$1.096.500 | R$1.579.500 |
-| Maior déficit acumulado, incluindo mês zero | R$1.240.150 | R$610.590 | R$444.750 |
-| Reserva geral de caixa | R$192.000 | R$192.000 | R$192.000 |
-| **Capital total de planejamento, arredondado** | **R$1.440.000** | **R$810.000** | **R$640.000** |
-| Primeiro mês com caixa operacional positivo | Não ocorre | M21 | M15 |
-| Primeiro equilíbrio recorrente antes da depreciação | Não ocorre | M22 | M17 |
-| Caixa acumulado antes de aporte no mês 24 | −R$1.240.150 | −R$573.520 | −R$194.890 |
-| Recupera o investimento em 24 meses? | Não | Não | Não |
+| Implantações iniciadas | 3 | 5 | 7 |
+| Implantações concluídas | 3 | 4 | 6 |
+| Assinantes no mês 24 | 2 | 3 | 5 |
+| Mensalidades no mês 24 | R$24.000 | R$36.000 | R$60.000 |
+| Faturamento ano 1 | R$212.000 | R$396.000 | R$644.000 |
+| Faturamento ano 2 | R$628.000 | R$960.000 | R$1.340.000 |
+| Recebimentos ano 1 | R$200.000 | R$304.000 | R$540.000 |
+| Recebimentos ano 2 | R$616.000 | R$936.000 | R$1.304.000 |
+| Maior déficit acumulado | R$813.040 | R$696.920 | R$513.440 |
+| Reserva geral | R$126.000 | R$126.000 | R$126.000 |
+| Capital total de planejamento | R$940.000 | R$830.000 | R$640.000 |
+| Caixa acumulado sem aporte no M24 | R$-798.400 | R$-696.920 | R$-491.880 |
+| Contas a receber no M24 | R$24.000 | R$116.000 | R$140.000 |
+| Resultado recorrente mensal no M24, antes da depreciação | R$-25.680 | R$-17.520 | R$-1.200 |
+| Maior número de pessoas com acesso | 30 | 40 | 60 |
+| Maior carga direta de trabalho/mês | 260 | 270 | 290 |
 
-Capital de planejamento = maior déficit + maior entre 15% desse déficit e três meses do maior fixo mensal, arredondado para cima em R$10 mil. A reserva de infraestrutura de R$6 mil está dentro da reserva geral de R$192 mil, sem dupla contagem.
 
-O cenário-base chega ao mês 24 com resultado recorrente de R$10.130 antes da depreciação, ou cerca de R$8.018,89 depois dela. O caixa daquele mês é positivo em R$3.005. Ainda há R$573.520 de caixa acumulado negativo antes dos aportes. Resultado mensal positivo não significa que o investimento já foi recuperado.
+**Nenhum cenário recupera o investimento em 24 meses. Nenhum chega a equilíbrio recorrente dentro do horizonte com as não renovações consideradas.** No expansão, cinco assinantes geram R$60 mil/mês, mas ainda faltam R$1.200/mês antes da depreciação para cobrir o recorrente e o fixo de R$42 mil.
+
+Com as premissas atuais, são necessários **seis assinantes recorrentes** para cobrir R$42 mil de fixo:6 × R$8.160 = R$48.960, deixando R$6.960 antes da depreciação e aproximadamente R$4.848,89 depois. Isso não recupera automaticamente o capital acumulado nem dispensa margem de segurança.
+
+O cenário-base exige **R$830 mil de capital total de planejamento**, incluindo reserva. Não é o custo da infraestrutura, valuation ou aporte atribuído à Dani. O preço maior não tornou a projeção anterior mais lucrativa por simples substituição de números.
+
+Capital = maior déficit + maior entre 15% do déficit e três meses do maior fixo, arredondado para cima em R$10 mil. A reserva é R$126 mil nos três cenários. Os R$6 mil de contingência de infraestrutura fazem parte dessa reserva, sem dupla contagem.
 
 ### Marcos do cenário-base
 
-| Marco | Assinantes | Receita mensal de assinaturas | Caixa acumulado antes de aporte |
+| Marco | Assinantes | Mensalidades faturadas no mês | Caixa acumulado sem aporte |
 |---|---:|---:|---:|
 | M3 | 0 | R$0 | −R$211.000 |
-| M6 | 1 | R$7.500 | −R$296.860 |
-| M9 | 2 | R$15.000 | −R$401.095 |
-| M12 | 4 | R$30.000 | −R$489.955 |
-| M18 | 8 | R$64.500 | −R$594.205 |
-| M24 | 12 | R$99.000 | −R$573.520 |
+| M6 | 0 | R$0 | −R$322.000 |
+| M9 | 0 | R$0 | −R$434.600 |
+| M12 | 1 | R$12.000 | −R$524.120 |
+| M18 | 3 | R$36.000 | −R$598.600 |
+| M24 | 3 | R$36.000 | −R$696.920 |
 
-O maior déficit ocorre no M20. A receita anualizada a partir do último mês seria R$1,188 milhão, mas isso não é dinheiro já contratado ou recebido no ano seguinte.
+No mês 24 há R$116 mil a receber no cenário-base: R$80 mil de implantação e R$36 mil de mensalidades. Também existem trabalho e faturamento do último projeto depois do horizonte; não somar esses valores ao caixa já recebido.
 
-### Riscos de caixa e liberação por etapas
+### Sensibilidades
 
-Atrasar vendas por três meses, mantendo os custos, leva o capital-base a aproximadamente R$1 milhão. Provisão tributária de 16%: R$890 mil. Recebimento recorrente em dois meses: R$880 mil. São mudanças isoladas, não choques combinados.
+- Vendas três meses mais tarde, com despesas mantidas: capital-base de aproximadamente **R$920 mil**.
+- Mais 20% de horas além do orçamento já contingenciado: **R$950 mil**.
+- Tributos a 16%, em vez de 12%: **R$880 mil**.
 
-Uma divisão gerencial possível dos R$810 mil seria R$300 mil iniciais, R$250 mil no M4 e R$260 mil no M10, condicionados a marcos e acordo. Não são aportes aprovados. R$300 mil iniciais deixariam apenas R$3.140 ao fim do M6 no cenário-base se não houver nova tranche; o financiamento deve ser resolvido antes disso.
+São alterações isoladas. Não modelamos inadimplência, juros, inflação, compra de segunda DGX, seguro empresarial ou exigências especiais de cliente. Essas condições precisam ser orçadas antes de aceitar um contrato.
 
-Os R$100 mil de infraestrutura não substituem o capital de operação. Não foi atribuída à Dani obrigação de financiar esse total. Também não há valuation calculado a partir dessas projeções.
+## 9. Capacidade realista de pessoas e implantação
+
+Uma DGX não determina quantos projetos a equipe consegue entregar. Por isso limitamos o plano a **uma implantação por vez**, com orçamento de 240 horas diretas mensais, mais a curadoria das assinaturas.
+
+| Cenário | Pessoas com acesso no maior momento | Horas diretas máximas/mês | Referência humana a 120 h produtivas/mês |
+|---|---:|---:|---:|
+| Conservador | 30 | 260 h | 2,17 pessoas |
+| Base | 40 | 270 h | 2,25 pessoas |
+| Expansão | 60 | 290 h | 2,42 pessoas |
+
+É necessário combinar pelo menos dois prestadores para a implantação e cobertura adicional de curadoria, conforme agenda. Três pessoas disponíveis não significam três salários integrais adicionais: o modelo paga as horas diretas previstas. A equipe e os contratos de prestação ainda precisam existir; não tratamos essa capacidade como contratada.
+
+### Limites técnicos que continuam em validação
+
+- Até 100 pessoas com acesso no conjunto da operação.
+- Meta de 20 pessoas simultâneas consultando mapa e registros.
+- Uma pergunta de IA em execução e até duas aguardando, com aviso explícito de limite.
+- No perfil de 100 pessoas:40 usam IA/dia ×6 perguntas =240 perguntas/dia; em oito horas,30/h em média e 60/h na hora de pico.
+- Meta de 20 segundos por pergunta curta; capacidade aritmética 180/h, reduzida a 90/h para planejamento. Esses tempos não foram medidos numa DGX Topologic.
+
+Os cenários comerciais ficam abaixo de 100 usuários com dez por cliente, incluindo implantação. Isso não comprova a capacidade técnica: tamanho das fontes, uso de IA e velocidade ainda precisam ser testados. Dobrar perguntas por pessoa reduz pela metade a quantidade de pessoas no mesmo perfil.
+
+A aplicação e os registros ficam fora da DGX. A IA tem prioridade durante atendimento; treinamento, testes e processamento pesado ficam em outras janelas. Uma DGX não oferece redundância. Sem garantia de disponibilidade 24×7.
+
+## 10. Infraestrutura até R$100 mil no primeiro ano
+
+| Item | Provisão |
+|---|---:|
+| Uma DGX Spark 128 GB/4TB | R$65.000 |
+| Nobreak e proteção elétrica | R$4.000 |
+| Rede e segurança | R$2.000 |
+| Backup local | R$3.000 |
+| Periféricos essenciais | R$2.000 |
+| **Equipamentos** | **R$76.000** |
+| Hospedagem, banco, backup externo e monitoramento,12 meses | R$12.000 |
+| Energia e conectividade adicionais,12 meses | R$6.000 |
+| Reserva de infraestrutura | R$6.000 |
+| **Total primeiro ano** | **R$100.000** |
+
+Não há cotação brasileira válida de R$65 mil incorporada ao plano. Antes de comprar, confirmar preço total com nota fiscal, frete, impostos, garantia e suporte. Se não couber, rever o plano antes de gastar. O teto não é autorização de compra.
+
+Supomos sala segura e conexão principal existentes. O servidor de aplicação de referência tem 4 CPUs virtuais e 8 GB de memória, sujeito a cotação e teste dentro de R$1 mil/mês. Sem novo escritório, obras ou infraestrutura dedicada por cliente no pacote.
+
+O desembolso M0 é R$100 mil, mas por outra composição: R$76 mil de hardware + R$24 mil pré-operacionais, sendo jurídico/constituição 12 mil e revisão de segurança 12 mil. A equipe, os custos de entrega e os tributos não estão no teto de infraestrutura.
+
+Os serviços continuam no segundo ano, acrescentando R$18 mil já incluídos nos fixos. Equipamentos +24 meses de serviços + a mesma reserva somam R$118 mil, sem segunda DGX. Depreciação gerencial: R$76 mil/36 = R$2.111,11 por mês, sem descontar de novo do caixa.
 
 ## 11. Sociedade
 
-| Participante | Participação informada | Pessoas |
+| Participante | Participação | Identificação |
 |---|---:|---|
-| AUMI | **50%** | Marcos, Luciana e João, conjuntamente |
-| Dani | **50%** | Investidora |
+| **AUMI** | **50%** | Marcos, Luciana e João, conjuntamente |
+| **Dani** | **50%** | Investidora |
 
-A distribuição interna dos 50% da AUMI não foi informada e não é presumida como igualitária. Aporte da Dani, datas, responsabilidades, dedicação, cargos, remuneração, propriedade intelectual e veículo societário ainda precisam ser formalizados.
+Não se presume divisão igual entre os três integrantes da AUMI. Valor e calendário do aporte, dedicação, cargos, remuneração, propriedade intelectual e veículo societário precisam ser formalizados. A sociedade 50/50 precisa de regras de administração, impasse, aprovação de gastos, saída e diluição.
 
-Uma sociedade 50/50 precisa combinar como resolver desacordos, aprovar gastos, definir administração, admitir novos sócios e tratar saídas. A divisão econômica não determina sozinha os direitos de voto ou a obrigação de novos aportes. Este plano não substitui contrato social ou acordo de sócios.
+Capital necessário não define valuation nem obrigação de um sócio financiar todos os custos. Nenhuma tranche de investimento está aprovada neste documento.
 
-## 12. Como começar e quando avançar
+## 12. Decisões para executar sem ampliar promessa
 
-| Etapa | Trabalho | Evidência para avançar |
-|---|---|---|
-| Meses 1–3 | Confirmar problema, comprador, acesso e preparar um recorte utilizável | Cliente reconhece a tarefa; proposta delimitada; segurança e medição inicial de capacidade |
-| Meses 4–6 | Primeiras entregas pagas | Reunião útil, horas de trabalho apontadas e decisão de continuidade |
-| Meses 7–12 | Repetir a entrega e testar acompanhamento de eventos | Outra equipe consegue usar; manutenção cabe no preço; testes de carga aprovados antes de ampliar usuários |
-| Meses 13–24 | Crescer no mesmo perfil de operação | Assinaturas cobrem a estrutura, capacidade permanece dentro do orçamento e equipe consegue entregar |
+1. **Escolher uma entrada.** Uma mudança industrial delimitada ou, havendo acesso comercial melhor, uma implantação logística. Não construir seis produtos antes da primeira entrega.
+2. **Confirmar comprador e benefício.** Proposta de R$200 mil + R$12 mil/mês com perguntas, escopo, custos e responsáveis. Interesse na demo não equivale a orçamento aprovado.
+3. **Homologar antes de prometer.** Fontes suportadas, isolamento, backup, fluxo de reuniões, qualidade das respostas e carga de uso.
+4. **Medir a primeira implantação.** Apontar horas, reutilização, dúvidas, prazo de aceite e manutenção. Comparar com 720 h, não com uma expectativa vaga.
+5. **Expandir só após repetir.** Segundo cliente com recorte reutilizável, equipe disponível e benefício demonstrável.
 
-Metas comerciais do cenário-base: 60 contas-alvo trabalhadas por ano; 24 e 30 reuniões qualificadas; 12 e 18 propostas; seis e nove implantações nos anos 1 e 2. Fechar metade das propostas qualificadas é hipótese exigente, não taxa histórica. Prazo comercial de 60–120 dias também é hipótese.
+Interromper investimento amplo se não houver comprador ou acesso, se ferramentas existentes forem suficientes, ou se o custo de manter o modelo superar o benefício. Se o uso for apenas pontual, rever a oferta; não forçar renovação para sustentar a previsão.
 
-Continuar quando pagamento, benefício, uso independente e manutenção sustentável forem demonstrados. Oferecer projeto avulso se o valor for pontual. Ajustar interface se o 3D não ajudar. Interromper expansão se não houver comprador, acesso ou benefício superior ao custo.
+## 13. Segurança, responsabilidade e saída
 
-## 13. Cuidados que não podem ser retirados para baratear
+Cada cliente deve acessar somente seus dados e relações permitidos. Informações derivadas também precisam de autorização. Origem, data, responsável e estado devem distinguir observado, declarado, inferido e proposto. Informação ausente não pode aparecer como operação saudável.
 
-- Cada cliente só pode acessar seus próprios dados. Respostas derivadas e relações também precisam respeitar permissões.
-- Informações têm origem, data, responsável e estado: observado, declarado, inferido ou proposto.
-- Ausência de informação não pode aparecer como operação saudável.
-- Mudança proposta não é mudança já realizada. Dependência não prova causa.
-- O dono do processo valida significado; o cliente indica quem mantém o conhecimento.
-- Credenciais têm menor privilégio. Documentos e resultados externos são dados, não ordens para a IA.
-- Ações automáticas exigem destinos autorizados, aprovação, prevenção de duplicação, auditoria e parada de emergência.
-- Não movimentar dinheiro, tomar decisão clínica, avaliar pessoas ou reprocessar ERP no primeiro pacote.
-- Combinar retenção, exportação, eliminação e recuperação de backup. A saída do cliente não pode depender de perder o próprio conhecimento.
-- Avaliar LGPD, subprocessadores e transferências internacionais. Ter uma máquina local não elimina envio de dados para terceiros.
-- Verificar o nome comercial e os direitos de propriedade intelectual antes de investir na marca; há outros usos públicos de Topologic, sem conclusão automática de infração.
+Mudança proposta não significa mudança realizada. Dependência não comprova causa raiz. Conteúdo de documentos e logs é dado, não instrução para a IA. Ações futuras exigem destinos autorizados, validação determinística, aprovação, prevenção de duplicação, auditoria e parada de emergência.
 
-## 14. Detalhes técnicos do dimensionamento
+IA local não elimina risco de privacidade. Usar Claude/ChatGPT pode enviar dados para esses provedores; MCP não transfere a execução dos modelos deles para nossa DGX. Jurídico deve validar LGPD, papéis das partes, subprocessadores, retenção e transferências.
 
-Esta seção é destinada a quem vai implementar e conferir o plano. Não é necessária para entender a proposta comercial.
+O contrato deve permitir exportação, revogação de acessos e eliminação conforme obrigações. Sem dados de pacientes, decisões clínicas ou dados de alunos menores no recorte inicial. Verificar marca e propriedade intelectual antes de investir no nome, sem pressupor direito exclusivo por usar Topologic na demo.
 
-### Perfil de referência
+## 14. Apêndice de capacidade e critérios de teste
 
-- Uma DGX Spark de 128 GB de memória unificada; sem segunda unidade no orçamento.
-- Começar avaliando um modelo de aproximadamente 8–14 bilhões de parâmetros, quantizado, com licença adequada. Tamanho não garante qualidade ou desempenho.
-- Até 4 mil tokens de entrada por consulta e média de 300 tokens de saída. Tokens são unidades de texto, não palavras. Contextos e saídas maiores exigem nova medição.
-- Meta de geração de pelo menos 20 tokens/segundo no perfil de referência e até cinco segundos adicionais para busca, preparação, processamento da entrada e rede. O teste deve medir o tempo completo, não apenas a geração.
-- Tempo de referência: 300 / 20 + 5 = 20 segundos. Capacidade aritmética: 3.600 / 20 = 180 consultas/h. Planejamento com utilização de 50%: 90 consultas/h.
-- Demanda: pessoas × 40% × seis consultas/dia / oito horas × fator de pico dois. Para 100 pessoas: 60 consultas/h.
-- Um pedido em execução, dois aguardando. Em uma rajada de três pedidos admitidos, 20 segundos constantes por pedido implicariam até 60 segundos para terminar o último. Isso é cálculo determinístico, não garantia de percentil em produção.
-- Ingestão e reindexação em lote fora da janela de atendimento. Sem áudio/vídeo ou leitura irrestrita de logs brutos no perfil.
-- Testar até 150 entidades estruturais por ambiente, até 20 ambientes e 20 GB de documentos ativos no conjunto. Fontes maiores exigem reorçamento e teste de ingestão/armazenamento.
-- Servidor web de referência: quatro CPUs virtuais e 8 GB de memória, com aplicação, banco e backup externo dentro do envelope contratado. Regiões, segurança e retenção precisam ser aprovadas.
+Modelo inicial a avaliar: aproximadamente 8–14 bilhões de parâmetros, quantizado, com licença adequada; até 4 mil tokens de entrada e média 300 de saída. Tokens são unidades de texto, não palavras. Meta de 20 tokens/segundo de geração mais cinco segundos para busca, preparação, entrada e rede:300/20+5=20 segundos.
 
-### Ensaio obrigatório antes de prometer a capacidade
+Nenhuma dessas velocidades foi medida no produto. Testar português, fontes representativas, permissões e qualidade; depois 60 consultas/h por oito horas, com rajadas de três, fila, recusa explícita e falhas. Meta inicial a negociar: p95 de resposta total até 60 segundos para pedidos admitidos. Média 20 segundos não garante esse percentil.
 
-1. Medir recuperação, geração e resposta completa em português, com fontes representativas e perguntas revisadas. Avaliar correção e citação, não apenas velocidade.
-2. Rodar o fluxo real de mapas e registros com 20 sessões concorrentes. Meta inicial: 95% das operações acordadas em até dois segundos, respeitando isolamento. Não foi testada nesta revisão.
-3. Aplicar a carga de 60 consultas de IA/hora por uma jornada de oito horas, incluindo rajadas de até três e teste de excesso. Medir fila, recusas, p50/p95/p99, qualidade e falhas.
-4. Como critério inicial a negociar, buscar p95 de resposta total de até 60 segundos para o perfil admitido. Chegar a esse resultado depende de medir a distribuição real de tempos, não só a média de 20 segundos.
-5. Testar duas empresas com permissões diferentes, retomada após falha, restauração de backup e indisponibilidade da DGX. Nada disso foi homologado apenas pelo cálculo da planilha.
-6. Se qualquer condição falhar, reduzir a admissão, revisar uso e configuração ou reorçar a ampliação. Só então informar capacidade comercial aprovada.
+No mapa, testar 20 sessões e meta de 95% das operações acordadas em até dois segundos. Considerar 150 entidades por ambiente, até 20 ambientes como limite de ensaio e 20 GB de documentos ativos no conjunto. O pacote comercial desta revisão limita dez usuários por cliente. Fontes maiores e mais acesso exigem revisão.
 
-A planilha mostra a sensibilidade ao número de pessoas, frequência de uso, tamanho da resposta e velocidade. A documentação da NVIDIA confirma o hardware e receitas de execução em uma máquina; não comprova nossa meta de usuários.
+Separar desenvolvimento da janela de atendimento, testar indisponibilidade da IA, recuperação de backup e continuidade do mapa. Se o teste não passar, reduzir a admissão ou reorçar; não converter cálculo da planilha em garantia comercial.
 
-### Agenda financeira preservada
+## 15. Fontes e limites das projeções
 
-Conservador: projetos nos M6, M10, M14, M18 e M22; não convertem os dos M10/M18; uma saída no M18; sem Viva.
+As fontes descrevem tecnologia, fluxos ou obrigações. Não demonstram intenção de compra do Topologic, preço aceito, clientes contratados ou retorno financeiro.
 
-Base: projetos nos M4, M5, M7, M8, M10, M11, M13, M14, M15, M16, M17, M18, M20, M21 e M22; não converte o do M7; saídas no M18 e M23; Viva em 20% dos ativos, arredondado para baixo, a partir do M9.
+- [Microsoft: ciclo de produção](https://learn.microsoft.com/en-us/dynamics365/supply-chain/production-control/production-process-overview). Dependências entre materiais, recursos, produção e qualidade; não prova integração Topologic.
+- [Microsoft: armazenagem compartilhada](https://learn.microsoft.com/en-us/dynamics365/supply-chain/warehousing/wms-only-mode-external-shared-warehouse). Exemplo de passagens entre pedidos e armazéns; não prova adoção do nosso produto por operadores.
+- [Microsoft: cross-docking](https://learn.microsoft.com/en-gb/dynamics365/business-central/warehouse-how-to-cross-dock-items). O sistema existente já executa funções de armazenagem; não vender Topologic como substituto.
+- [Lei de Franquias13.966/2019](https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2019/Lei/L13966.htm). Referência de relações de suporte, fornecedores e treinamento, não recomendação comercial.
+- [LGPD](https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm) e [ANPD: transferência internacional](https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/transferencia-internacional-de-dados).
+- [NVIDIA: hardware DGX Spark](https://docs.nvidia.com/dgx/dgx-spark/hardware.html) e [receita de inferência em uma máquina](https://build.nvidia.com/spark/vllm). Não são benchmark da nossa carga.
+- [OpenAI: MCP](https://developers.openai.com/plugins/concepts/mcp-server). Suporte depende do cliente e do plano.
 
-Expansão: um projeto por mês do M4 ao M24; não convertem os dos M6/M14; uma saída no M20; Viva em 40% dos ativos, arredondado para baixo, a partir do M9. O último projeto tem apenas metade faturada no horizonte. Assinaturas de projetos iniciados nos M23/M24 só começariam depois do horizonte.
+### Verificação realizada
 
-## 15. Fontes, verificação e histórico
+Modelo independente de 24 meses com marcos 40/40/20, custos de 720 h, recebimentos defasados, uma não renovação por cenário e ausência de sobreposição de implantações. Foram comparados **1.728 resultados mensais** com as fórmulas da planilha. **1.847 fórmulas** foram mantidas com valores calculados em cache e o arquivo foi reaberto para conferência. Faturamento menos recebimentos foi reconciliado com contas a receber, e saídas/entradas com o caixa acumulado.
 
-### Fontes primárias
-
-- [NVIDIA: especificações da DGX Spark](https://docs.nvidia.com/dgx/dgx-spark/hardware.html). 128 GB de memória unificada; documentação atualizada em 10/09/2026. Especificação não é benchmark do produto.
-- [NVIDIA: execução de modelos com vLLM em uma DGX](https://build.nvidia.com/spark/vllm). Receita oficial; não usada como prova de 100 usuários.
-- [NVIDIA: página brasileira do produto](https://www.nvidia.com/pt-br/products/workstations/dgx-spark/). Não há cotação brasileira válida incorporada neste plano.
-- [OpenAI: conexão de ferramentas por MCP](https://developers.openai.com/plugins/concepts/mcp-server). Compatibilidade depende do cliente e do plano.
-- [Oracle: permissões de integração](https://docs.oracle.com/en/cloud/paas/application-integration/oracle-integration-oci/oracle-integration-roles.html) e [API de monitoramento](https://docs.oracle.com/en/cloud/paas/application-integration/rest-api/op-ic-api-integration-v1-monitoring-instances-get.html).
-- [SAP LeanIX](https://www.leanix.net/en/enterprise-architecture/pricing) e [Atlassian Service Collection](https://www.atlassian.com/collections/service/pricing?bundle=jira-service-management), como alternativas de mercado, sem alegar ausência de funcionalidades.
-- [LGPD](https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm) e [ANPD: transferência internacional de dados](https://www.gov.br/anpd/pt-br/assuntos/assuntos-internacionais/transferencia-internacional-de-dados).
-
-### Verificação desta revisão
-
-A planilha foi recalculada com uma DGX, hardware de R$76 mil, infraestrutura compartilhada e custos fixos revisados. Foram comparados 1.440 resultados mensais de fórmulas com cálculo independente. As 1.788 fórmulas foram preservadas e seus valores calculados foram gravados no arquivo para facilitar a visualização. O arquivo foi reaberto e os valores conferidos. As abas Infra12meses e Capacidade documentam as premissas.
-
-A aba Verificado e o CSV são retratos estáticos desta revisão. Ao alterar as premissas, Excel/LibreOffice precisa recalcular as fórmulas; os retratos estáticos não se atualizam. Não foi executado Excel/LibreOffice, ensaio físico de DGX, teste de carga do produto, cotação formal, entrevista comercial ou integração produtiva. Coerência das contas não comprova capacidade física ou demanda de mercado.
+A planilha permite conferir Premissas, Infraestrutura, Agenda, Capacidade e Resumo. Verificado e CSV são snapshots desta revisão e não se atualizam quando premissas mudam. Recalcular no Excel/LibreOffice ao editar. Não foi executado Excel/LibreOffice, teste físico da DGX, integração produtiva, entrevista de comprador ou cotação formal.
 
 ### Mudanças desta revisão
 
-- Uma DGX no início, em vez de duas.
-- Infraestrutura limitada a R$100 mil de planejamento nos primeiros 12 meses: equipamentos, serviços e reserva.
-- Meta condicional de 100 pessoas, com distinção entre acesso, uso simultâneo da plataforma e fila da IA.
-- Hospedagem centralizada nos fixos; custos diretos recorrentes passam a refletir somente curadoria, evitando dupla contagem.
-- Capital-base revisado de R$970 mil para R$810 mil, sem alterar preços de referência ou agenda comercial.
-- Linguagem principal centrada em características, benefícios e vantagens. Detalhes técnicos separados.
-- Composição societária mantida: AUMI 50%, Dani 50%.
+- Oferta única: Topologic Operação, implantação R$200 mil + mensalidade proposta R$12 mil.
+- Implantação de três meses,600 h +20% de contingência e custo/hora de R$180.
+- Menos vendas projetadas, início posterior, uma implantação por vez e não renovação explícita.
+- Custos fixos de R$37 mil/R$42 mil, tributação provisionada a 12% e pagamento por marcos com prazo.
+- Seis aplicações setoriais, com comprador, ocasião, benefício, limite e prioridade.
+- Uma DGX, teto de infraestrutura de R$100 mil no primeiro ano e sociedade 50/50 preservados.
 
-**Natureza do documento:** planejamento público para discussão. Não é oferta pública de valores mobiliários, laudo técnico, parecer tributário/jurídico, contrato societário ou autorização de compra.
+**Documento público de planejamento.** Não é oferta pública de valores mobiliários, contrato, laudo técnico, parecer jurídico/tributário ou autorização de compra.
